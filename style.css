@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1 {
+    color: rgb(99, 97, 97);
+    text-align: center;
+  }
+body {
+  margin: 20px 0;
+  background: #6589F9;
+}
+.grid {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+.flex {
+    padding: 0;
+    width: 100px;
+    color: #FFFFFF;
+    border-radius: 0px;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+    text-decoration-color: white;
+  }
+  .card {
+    margin: 5px;
+    background-color: #6589F9;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 150px;
+    width: 150px;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 500px;
+    height: 400px;
+    align-content: space-around;
+ }
+.flex-1 {
+    background-image: url(/Users/michellemonfort/wdi/projects/project1/images/image1memgame.jpg)}
+.flex-2 {
+    background-image: url(/Users/michellemonfort/wdi/projects/project1/images/image2memgame.jpg)}
+.flex-3{
+      background-image: url(/Users/michellemonfort/wdi/projects/project1/images/image3memgame.jpg)}
+.flex-4 {
+    background-image: url(/Users/michellemonfort/wdi/projects/project1/images/image4memgame.jpg)}
+.flex-5 {
+  background-image: url(/Users/michellemonfort/wdi/projects/project1/images/image5memgame.jpg)}
+.flex-6 {
+    background-image: url(/Users/michellemonfort/wdi/projects/project1/images/image6memgame.jpg)}  
+.flex-7
+    { background-image: url(/Users/michellemonfort/wdi/projects/project1/images/image7memgame.jpg)}
