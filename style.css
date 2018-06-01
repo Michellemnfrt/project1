@@ -1,5 +1,5 @@
 body {
-  background: #2519F9;
+  background: rgb(249, 75, 22);
   text-align: center;
 }
 h1 {   
@@ -19,12 +19,12 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-
  
 .cell {
   width: 200px;
   height: 200px;
   background-image:url('./image/image7611memgame.jpg');
+ margin-inline-start: 0%;
 }
 .board {
   display: grid;
