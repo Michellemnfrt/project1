@@ -1,32 +1,54 @@
+div#memory_board {
+  background: #dadada;
+  border: #999 1px solid;
+  width: 700px;
+  height: 700px;
+  padding: 24px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  /* background-image: url("https://imgur.com/YiioFmW"); */
+}
+div#memory_board > div {
+  border: #000 1px solid;
+  width: 90px;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 64px;
+  cursor: pointer;
+  text-align: center;
+  height: 90px;
+  background-image: url("./image/image7611memgame.jpg");
+}
 body {
-  background: #2519F9;
+  background: rgb(249, 75, 22);
   text-align: center;
 }
-h1 {   
+h1 {
   font-size: 48px;
   font-weight: 300;
   margin-bottom: 40px;
   color: rgb(99, 97, 97);
   text-align: center;
-  }
-  img {
-    max-width: 100%
+}
+img {
+  max-width: 100%;
 }
 .grid {
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
- 
 .cell {
   width: 200px;
-  height: 200px;
-  background-image:url('./image/image7611memgame.jpg');
+  height: 350px;
+  background-image: url("./image/image7611memgame.jpg");
+  margin-inline-start: 0%;
 }
 .board {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 4fr);
 }
