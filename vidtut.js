@@ -18,6 +18,7 @@ var memory_array = [
 ];
 var memory_values = [];
 var memory_values = [];
+var memory_tile_ids = [];
 var tiles_flipped = 0;
 
 function newBoard() {
@@ -86,19 +87,22 @@ function gameIsOver() {
 function cardsDoNotMatch() {
   setTimeout(flipCardBack, 700);
 }
-
 function flipCard(tile, value) {
   tile.style.background = "#FFF";
   tile.innerHTML = value;
 }
+// function flipCard(tile, value) {
+//   tile.style.background = "#FFF";
+//   tile.innerHTML = '<img src="' + value + '.jpg"/>';
+// }
 
 function flipCardBack() {
   // Flip the 2 tiles back over
   var tile_1 = document.getElementById(memory_tile_ids[0]);
   var tile_2 = document.getElementById(memory_tile_ids[1]);
-  tile_1.style.background = "#FF3399";
+  tile_1.style.background = "url(image/image7memgame) no-repeat";
   tile_1.innerHTML = "";
-  tile_2.style.background = "#FF3399";
+  tile_2.style.background = "url(image/image7memgame) no-repeat";
   tile_2.innerHTML = "";
 
   // Clear both arrays
@@ -131,12 +135,12 @@ function memoryFlipTile2(tile, value) {
     flipCard(tile, value);
     setCardAsFlipped(tile, value);
     if (isOneCardFlipped()) {
-      console.log("e2");
+      console.log("is on card flipped err");
       if (isThereIsAMatch()) {
-        console.log("e3");
+        console.log("is there a match error");
         matchCards();
         if (isGameOver()) {
-          console.log("e4");
+          console.log("game over error");
           gameIsOver();
         }
       } else {
