@@ -79,17 +79,17 @@ function isGameOver() {
 }
 
 function gameIsOver() {
-  alert("Board cleared... generating new board");
+  alert("You Won!... Click ok to play again");
   document.getElementById("memory_board").innerHTML = "";
   newBoard();
 }
 
 function cardsDoNotMatch() {
-  setTimeout(flipCardBack, 700);
+  setTimeout(flipCardBack, 500);
 }
 
 function flipCard(tile, value) {
-  tile.style.background = "#FFF";
+  tile.style.background = "#PPP";
   tile.innerHTML = value;
 }
 
@@ -97,7 +97,7 @@ function flipCardBack() {
   // Flip the 2 tiles back over
   var tile_1 = document.getElementById(memory_tile_ids[0]);
   var tile_2 = document.getElementById(memory_tile_ids[1]);
-  tile_1.style.background = "#FF3399";
+  //   tile_1.style.background = "#FF3399";
   tile_1.innerHTML = "";
   tile_2.style.background = "#FF3399";
   tile_2.innerHTML = "";

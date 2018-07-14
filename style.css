@@ -7,7 +7,7 @@ div#memory_board {
   margin: 10px auto;
   display: grid;
   grid-template-columns: repeat(4, 4fr);
-  background-image: url("https://imgur.com/YiioFmW");
+  /* background-image: url("https://imgur.com/YiioFmW"); */
 }
 div#memory_board > div {
   border: #000 1px solid;
