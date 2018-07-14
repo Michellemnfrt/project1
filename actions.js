@@ -109,14 +109,16 @@ function flipCardBack() {
 
 function memoryFlipTile(tile, value) {
   if (canFlipCard(tile)) {
+    console.log("e1");
     flipCard(tile, value);
-    if (areNoCardsFlipped()) {
-      setCardAsFlipped(tile, value);
-    } else if (isOneCardFlipped()) {
-      setCardAsFlipped(tile, value);
+    setCardAsFlipped(tile, value);
+    if (isOneCardFlipped()) {
+      console.log("is on card flipped err");
       if (isThereIsAMatch()) {
+        console.log("is there a match error");
         matchCards();
         if (isGameOver()) {
+          console.log("game over error");
           gameIsOver();
         }
       } else {
