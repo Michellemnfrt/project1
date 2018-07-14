@@ -1,55 +1,51 @@
 div#memory_board {
-background: #000000;
-border: #999 1px solid;
-width: 800px;
-height: 540;
-padding: 24px;
-margin: 0px auto;
-
+  background: #dadada;
+  border: #999 1px solid;
+  width: 800px;
+  height: 540px;
+  padding: 24px;
+  margin: 0px auto;
 }
 div#memory_board > div {
-background: image(src="image/7611.jpg");
-border: #000 1px solid;
-width: 71px;
-float: left;
-margin: 10px;
-padding: 20px;
-font-size: 64px;
-cursor: pointer;
-text-align: center;
+  background: #ff3399;
+  border: #000 1px solid;
+  width: 71px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+  font-size: 64px;
+  cursor: pointer;
+  text-align: center;
 }
-
-/* 
 body {
   background: rgb(249, 75, 22);
   text-align: center;
 }
-h1 {   
+h1 {
   font-size: 48px;
   font-weight: 300;
   margin-bottom: 40px;
   color: rgb(99, 97, 97);
   text-align: center;
-  }
-  img {
-    max-width: 100%
+}
+img {
+  max-width: 100%;
 }
 .grid {
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
- 
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .cell {
   width: 200px;
   height: 200px;
-  background-image:url('./image/image7611memgame.jpg');
- margin-inline-start: 0%;
- 
+  background: rgb(105, 10, 56);
+  margin-inline-start: 0%;
 }
 .board {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-} */
+}
