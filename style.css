@@ -1,21 +1,24 @@
 div#memory_board {
   background: #dadada;
   border: #999 1px solid;
-  width: 800px;
-  height: 540px;
+  width: 700px;
+  height: 700px;
   padding: 24px;
-  margin: 0px auto;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  background-image: url("https://imgur.com/YiioFmW");
 }
 div#memory_board > div {
-  background: #ff3399;
   border: #000 1px solid;
-  width: 71px;
-  float: left;
-  margin: 10px;
+  width: 90px;
+  margin: 10px auto;
   padding: 20px;
   font-size: 64px;
   cursor: pointer;
   text-align: center;
+  height: 90px;
+  background-image: url("./image/image7611memgame.jpg");
 }
 body {
   background: rgb(249, 75, 22);
@@ -41,11 +44,11 @@ img {
 
 .cell {
   width: 200px;
-  height: 200px;
-  background: rgb(105, 10, 56);
+  height: 350px;
+  background-image: url("./image/image7611memgame.jpg");
   margin-inline-start: 0%;
 }
 .board {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 4fr);
 }
