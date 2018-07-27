@@ -1,4 +1,7 @@
-# project 1
+
+# project1
+
+Git Hub Pages can be found at https://michellemnfrt.github.io/project1/
 
 ## The Goal of this project is to create a functional memory card game that allows you to flip two different cards and assess to see if they match. If they do match both cards should disappear. If they do not match they should flip back over.
 
@@ -12,3 +15,4 @@ The logic behind the game is as follows
 6.  If there is no match make them flip back over
 7.  Repeat steps 5 and 6 until there are no cards
 8.  Alert game over
+
