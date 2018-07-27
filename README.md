@@ -2,7 +2,7 @@
 
 ## The Goal of this project is to create a functional memory card game that allows you to flip two different cards and assess to see if they match. If they do match both cards should disappear. If they do not match they should flip back over.
 
-##The logic behind the game is as follows
+The logic behind the game is as follows
 
 1.  Add function to all cards so that the click does something
 2.  Add Eventlistener to change picture when clicked (create function to do this)
