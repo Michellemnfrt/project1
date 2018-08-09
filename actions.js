@@ -1,20 +1,20 @@
 var memory_array = [
-  "🤧",
-  "😰",
-  "🤥",
-  "🙄",
-  "🤢",
-  "😹",
-  "😓",
-  "👁",
-  "🤧",
-  "😰",
-  "🤥",
-  "🙄",
-  "🤢",
-  "😹",
-  "😓",
-  "👁"
+  "🤩",
+  "💋",
+  "💍",
+  "💃",
+  "🍀",
+  "🍄",
+  "🌍",
+  "💫",
+  "🤩",
+  "💋",
+  "💍",
+  "💃",
+  "🍀",
+  "🍄",
+  "🌍",
+  "💫"
 ];
 
 var memory_values = [];
@@ -80,7 +80,7 @@ function isGameOver() {
 }
 
 function gameIsOver() {
-  alert("Board cleared... generating new board");
+  alert("Great Job!! You cleared the board...click ok to generate a new board");
   document.getElementById("memory_board").innerHTML = "";
   newBoard();
 }

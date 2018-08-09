@@ -18,19 +18,20 @@ div#memory_board > div {
   cursor: pointer;
   text-align: center;
   height: 90px;
-  background-image: url("./image/image7611memgame.jpg");
-  background-position: inherit;
-  image-rendering: pixelated;
+  /* background-image: url("./image/image7611memgame.jpg"); */
+
+  background: url("./image/image7611memgame.jpg") no-repeat center center /
+    contain;
 }
 body {
-  background: rgb(249, 75, 22);
+  background: rgb(99, 15, 168);
   text-align: center;
 }
 h1 {
   font-size: 48px;
   font-weight: 300;
-  margin-bottom: 40px;
-  color: rgb(99, 97, 97);
+  margin-bottom: 10px auto;
+  color: rgb(230, 6, 6);
   text-align: center;
 }
 img {
