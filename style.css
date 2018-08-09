@@ -19,7 +19,6 @@ div#memory_board > div {
   text-align: center;
   height: 90px;
   /* background-image: url("./image/image7611memgame.jpg"); */
-
   background: url("./image/image7611memgame.jpg") no-repeat center center /
     contain;
 }
