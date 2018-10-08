@@ -101,10 +101,12 @@ function flipCardBack() {
   // Flip the 2 tiles back over
   var tile_1 = document.getElementById(memory_tile_ids[0]);
   var tile_2 = document.getElementById(memory_tile_ids[1]);
-  tile_1.style.background = "url(image/image7memgame) no-repeat";
+  tile_1.style.background = "url(./image/image1memgame.jpg)";
+  tile_1.style.backgroundSize = "cover";
   tile_1.innerHTML = "";
-  tile_2.style.background = "url(image/image7memgame) no-repeat";
+  tile_2.style.background = "url(./image/image3memgame.jpg";
   tile_2.innerHTML = "";
+  tile_2.style.backgroundSize = "cover";
 
   // Clear both arrays
   memory_values = [];
